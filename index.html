@@ -1,1 +1,972 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CS4240 Deep Learning 2019-2020 - Poster session</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content .col-md-3 {
+      padding: 0;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      color: white;
+      padding: 15px;
+    }
+    
+    .image {
+      opacity: 1;
+      display: block;
+      width: 100%;
+      height: auto;
+      transition: .5s ease;
+      backface-visibility: hidden;
+    }
+
+    .middle {
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+      width: 100%;
+      height: 100%;
+    }
+
+    .col-md-3:hover .image {
+      /*opacity: 0.3;*/
+    }
+
+    .col-md-3:hover .middle {
+      opacity: 1;
+    }
+
+    .text {
+      background-color: rgba(0,0,0,0.7);
+      color: white;
+      font-size: 16px;
+      padding: 16px 32px;
+      width: 100%;
+      height: 100%;
+    }
+
+    a:hover {
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <h2>CS4240 Deep Learning 2019-2020</h2>
+    <h3>Poster session</h3>      
+    <p>8:45 - 12:30, Thursday 16 April 2020</p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row content">
+    <div class="col-md-3">
+      <img src="images/teasers/1.png" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 1</h4>
+          <p>U-Net: Convolutional Networks for Biomedical Image Segmentation</p>
+          <h5>
+            <a target="_blank" href="https://imgur.com/a/uYP6ghy"><span class="label label-danger">Poster</span></a>
+            <a target="_blank" href="https://arxiv.org/abs/1505.04597"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <img src="images/teasers/2.png" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 2</h4>
+          <p>U-Net: Convolutional Networks for Biomedical Image Segmentation</p>
+          <h5>
+            <a target="_blank" href="https://docs.google.com/document/d/1uHoFqnpZeKtIDcMomc6SnSv-mQWcdbXNT-fB-Ajet5Y/edit?usp=sharing"><span class="label label-primary">Blog</span></a>
+            <a target="_blank" href="https://arxiv.org/abs/1505.04597"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <img src="images/teasers/3.jpeg" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 3</h4>
+          <p>Learning Lightweight Lane Detection CNNs by Self Attention Distillation</p>
+          <h5>
+            <a target="_blank" href="https://drive.google.com/file/d/16e_bdniAyOu82447D3Z_zNrR0mkuZBbX/view?usp=sharing"><span class="label label-danger">Poster</span></a>
+            <a target="_blank" href="https://arxiv.org/abs/1908.00821"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <img src="images/teasers/4.png" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 4</h4>
+          <p>Deep learning with multimodal representation for pancancer prognosis prediction</p>
+          <h5>
+            <a target="_blank" href="https://github.com/henarit/Group4-ReproducibilityProject/blob/master/BlogPost.ipynb"><span class="label label-primary">Blog</span></a>
+            <a target="_blank" href="https://academic.oup.com/bioinformatics/article/35/14/i446/5529139"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <div class="row content">
+    <div class="col-md-3">
+      <img src="images/background.png" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 5</h4>
+          <p>Striving for Simplicity: The All Convolutional Net</p>
+          <h5>
+            <a target="_blank" href="https://arxiv.org/abs/1412.6806"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <img src="images/teasers/6.jpg" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 6</h4>
+          <p>Deep Directional Statistics: Pose Estimation with Uncertainty Quantification</p>
+          <h5>
+            <a target="_blank" href="https://sandeeprockstar.github.io/Pose_Estimation/"><span class="label label-primary">Blog</span></a>
+            <a target="_blank" href="https://arxiv.org/abs/1805.03430"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <img src="images/background.png" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 7</h4>
+          <p>Real-Time Single Image and Video Super-Resolution Using an Efficient Sub-Pixel Convolutional Neural Network</p>
+          <h5>
+            <a target="_blank" href="https://arxiv.org/abs/1609.05158"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <img src="images/teasers/8.png" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 8</h4>
+          <p>Deep Image Prior</p>
+          <h5>
+            <a target="_blank" href="https://github.com/thymerishere/deep-image-prior-reproduced/blob/master/Deep_Image_Prior_Reproduction_Poster.pdf"><span class="label label-danger">Poster</span></a>
+            <a target="_blank" href="https://github.com/thymerishere/deep-image-prior-reproduced/blob/master/deep_image_prior_reproduced_github.ipynb"><span class="label label-primary">Blog</span></a>
+            <a target="_blank" href="https://arxiv.org/abs/1711.10925"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <div class="row content">
+    <div class="col-md-3">
+      <img src="images/teasers/9.jpg" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 9</h4>
+          <p>Real-Time Single Image and Video Super-Resolution Using an Efficient Sub-Pixel Convolutional Neural Network</p>
+          <h5>
+            <a target="_blank" href="https://github.com/Dekelv/ESPCN-pytorch/blob/master/Group9_ESPCN_poster.pdf"><span class="label label-primary">Blog</span></a>
+            <a target="_blank" href="https://arxiv.org/abs/1609.05158"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <img src="images/teasers/10.png" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 10</h4>
+          <p>Deep Transfer Learning for Art Classification Problems</p>
+          <h5>
+            <a target="_blank" href="posters/10.pdf"><span class="label label-danger">Poster</span></a>
+            <a target="_blank" href="https://www.clips.uantwerpen.be/~walter/papers/2018/skdg18.pdf"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <img src="images/teasers/11.jpg" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 11</h4>
+          <p>Image-to-Image Translation with Conditional Adversarial Networks</p>
+          <h5>
+            <a target="_blank" href="https://hackmd.io/WXUSqaYaSHajIfkHkkLO4Q?view"><span class="label label-primary">Blog</span></a>
+            <a target="_blank" href="https://arxiv.org/abs/1611.07004"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <img src="images/teasers/12.png" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 12</h4>
+          <p>Exact Combinatorial Optimization with Graph Convolutional Neural Networks</p>
+          <h5>
+            <a target="_blank" href="https://www.notion.so/Combinatorial-Optimization-with-Graph-Convolutional-Neural-Networks-88565eafc8834c7190330b0b3cc1083a"><span class="label label-primary">Blog</span></a>
+            <a target="_blank" href="https://arxiv.org/abs/1906.01629"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <div class="row content">
+    <div class="col-md-3">
+      <img src="images/teasers/13.jpg" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 13</h4>
+          <p>Distilling the Knowledge in a Neural Network</p>
+          <h5>
+            <a target="_blank" href="https://drive.google.com/file/d/1Sws0iOkCkbZS6x_k_WjPdZgO3CCFxRVw/view?usp=sharing"><span class="label label-danger">Poster</span></a>
+            <a target="_blank" href="https://arxiv.org/abs/1503.02531"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <img src="images/teasers/14.png" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 14</h4>
+          <p>Image-to-Image Translation with Conditional Adversarial Networks</p>
+          <h5>
+            <a target="_blank" href="https://sigtot.com/Poster.pdf"><span class="label label-danger">Poster</span></a>
+            <a target="_blank" href="https://arxiv.org/abs/1611.07004"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <img src="images/teasers/15.png" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 15</h4>
+          <p>Siamese Neural Networks for One-shot Image Recognition</p>
+          <h5>
+            <a target="_blank" href="https://sharwinbobde.github.io/siamese-nn-oneshot-reproduction/blog.html"><span class="label label-primary">Blog</span></a>
+            <a target="_blank" href="https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <img src="images/teasers/16.png" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 16</h4>
+          <p>Striving for Simplicity: The All Convolutional Net</p>
+          <h5>
+            <a target="_blank" href="https://github.com/wtsyang/dl-reproducibility-project/blob/master/Report.ipynb"><span class="label label-primary">Blog</span></a>
+            <a target="_blank" href="https://github.com/wtsyang/dl-reproducibility-project"><span class="label label-info">Code</span></a>
+            <a target="_blank" href="https://arxiv.org/abs/1412.6806"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <div class="row content">
+    <div class="col-md-3">
+      <img src="images/teasers/17.png" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 17</h4>
+          <p>Between-class Learning for Image Classification</p>
+          <h5>
+            <a target="_blank" href="https://yxmshr.wordpress.com/2020/04/15/deep-learning-rp-group-17/"><span class="label label-primary">Blog</span></a>
+            <a target="_blank" href="https://arxiv.org/abs/1711.10284"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <img src="images/teasers/18.jpeg" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 18</h4>
+          <p>Communication-Efficient Learning of Deep Networks from Decentralized Data</p>
+          <h5>
+            <a target="_blank" href="https://drive.google.com/drive/folders/1xYDkzZrPPkpZgSWiY4hpJ3BSPJtsBYOC?usp=sharing"><span class="label label-primary">Blog</span></a>
+            <a target="_blank" href="https://arxiv.org/abs/1602.05629"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <img src="images/teasers/19.png" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 19</h4>
+          <p>Deep Image Prior</p>
+          <h5>
+            <a target="_blank" href="https://drive.google.com/open?id=1DWSTDoFEl8Ob9QtLmYdogSZ0wUzcq6mV"><span class="label label-danger">Poster</span></a>
+            <a target="_blank" href="https://arxiv.org/abs/1711.10925"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <img src="images/background.png" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 20</h4>
+          <p>Deep learning with multimodal representation for pancancer prognosis prediction</p>
+          <h5>
+            <a target="_blank" href="https://academic.oup.com/bioinformatics/article/35/14/i446/5529139"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <div class="row content">
+    <div class="col-md-3">
+      <img src="images/teasers/21.jpg" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 21</h4>
+          <p>Reconciling modern machine-learning practice and the classical bias-variance trade-off</p>
+          <h5>
+            <a target="_blank" href="https://drive.google.com/open?id=10Y_cN7G07kns-0RkhFrfqPrD7Eja2CEz"><span class="label label-danger">Poster</span></a>
+            <a target="_blank" href="https://arxiv.org/abs/1812.11118"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <img src="images/teasers/22.png" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 22</h4>
+          <p>Striving for Simplicity: The All Convolutional Net</p>
+          <h5>
+            <a target="_blank" href="https://github.com/hans321/CS4240/blob/blog/README.md"><span class="label label-primary">Blog</span></a>
+            <a target="_blank" href="https://arxiv.org/abs/1412.6806"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <img src="images/teasers/23.png" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 23</h4>
+          <p>Striving for Simplicity: The All Convolutional Net</p>
+          <h5>
+            <a target="_blank" href="https://drive.google.com/file/d/1zuMsp8n7qmNnDQK4ocxUvg3jE7j7cmIs/view"><span class="label label-danger">Poster</span></a>
+            <a target="_blank" href="https://arxiv.org/abs/1412.6806"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <img src="images/teasers/24.png" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 24</h4>
+          <p>Distilling the Knowledge in a Neural Network</p>
+          <h5>
+            <a target="_blank" href="https://drive.google.com/file/d/1w5KbePQMRtAEvSyGZAi2XLgC1Q_zRkKT/view?usp=sharing"><span class="label label-danger">Poster</span></a>
+            <a target="_blank" href="https://arxiv.org/abs/1503.02531"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <div class="row content">
+    <div class="col-md-3">
+      <img src="images/teasers/25.png" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 25</h4>
+          <p>Between-class Learning for Image Classification</p>
+          <h5>
+            <a target="_blank" href="https://drive.google.com/open?id=12HZM9r0kDqGPRm70qW4yILk_40qiNpeP"><span class="label label-danger">Poster</span></a>
+            <a target="_blank" href="https://arxiv.org/abs/1711.10284"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <img src="images/background.png" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 26</h4>
+          <p>On the Impact of Illumination-Invariant Image Pre-transformation for Contemporary Automotive Semantic Scene Understanding</p>
+          <h5>
+            <a target="_blank" href="https://ieeexplore.ieee.org/document/8500664"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <img src="images/teasers/27.png" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 27</h4>
+          <p>Real-Time Single Image and Video Super-Resolution Using an Efficient Sub-Pixel Convolutional Neural Network</p>
+          <h5>
+            <a target="_blank" href="https://drive.google.com/open?id=1C5Dn20qVl_eSAwhn-BnaDJTdh5bCvcCl"><span class="label label-danger">Poster</span></a>
+            <a target="_blank" href="https://arxiv.org/abs/1609.05158"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <img src="images/background.png" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 28</h4>
+          <p>Image-to-Image Translation with Conditional Adversarial Networks</p>
+          <h5>
+            <a target="_blank" href="https://arxiv.org/abs/1611.07004"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <div class="row content">
+    <div class="col-md-3">
+      <img src="images/background.png" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 29</h4>
+          <p>Siamese Neural Networks for One-shot Image Recognition</p>
+          <h5>
+            <a target="_blank" href="https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <img src="images/teasers/30.png" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 30</h4>
+          <p>Image-to-Image Translation with Conditional Adversarial Networks</p>
+          <h5>
+            <a target="_blank" href="https://medium.com/@damianvoorhout/the-reproduction-of-image-to-image-translation-with-conditional-adversarial-networks-f3d9e66e74b0"><span class="label label-primary">Blog</span></a>
+            <a target="_blank" href="https://arxiv.org/abs/1611.07004"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <img src="images/teasers/31.jpg" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 31</h4>
+          <p>Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift</p>
+          <h5>
+            <a target="_blank" href="https://docs.google.com/document/d/1rtnuyAkzMsVXUL7zjkM06VnvJTuEw9c0mw9BxnhhDbM/edit?usp=sharing"><span class="label label-primary">Blog</span></a>
+            <a target="_blank" href="https://arxiv.org/abs/1502.03167"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <img src="images/background.png" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 32</h4>
+          <p>Neural Graph Collaborative Filtering</p>
+          <h5>
+            <a target="_blank" href="https://arxiv.org/abs/1905.08108"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <div class="row content">
+    <div class="col-md-3">
+      <img src="images/teasers/33.png" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 33</h4>
+          <p>Learning to Generalize: Meta-Learning for Domain Generalization</p>
+          <h5>
+            <a target="_blank" href="posters/33.pdf"><span class="label label-danger">Poster</span></a>
+            <a target="_blank" href="https://arxiv.org/abs/1710.03463"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <img src="images/teasers/34.png" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 34</h4>
+          <p>Deep learning with multimodal representation for pancancer prognosis prediction</p>
+          <h5>
+            <a target="_blank" href="https://medium.com/tudelft/reproducing-a-deep-learning-paper-5c1c327a5fba"><span class="label label-primary">Blog</span></a>
+            <a target="_blank" href="https://academic.oup.com/bioinformatics/article/35/14/i446/5529139"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <img src="images/teasers/35.png" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 35</h4>
+          <p>U-Net: Convolutional Networks for Biomedical Image Segmentation</p>
+          <h5>
+            <a target="_blank" href="https://drive.google.com/file/d/1fHRnbnTul8IKd_Tkh4AZzJhlRon6qRI6/view?usp=sharing"><span class="label label-danger">Poster</span></a>
+            <a target="_blank" href="https://arxiv.org/abs/1505.04597"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <img src="images/teasers/36.jpg" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 36</h4>
+          <p>Fractional Max-Pooling</p>
+          <h5>
+            <a target="_blank" href="https://www.evernote.com/shard/s583/sh/fd694c27-e63b-473a-848b-a19d3a7f7e52/8d25cbc7bc94157e6efc4c5780c52a3a"><span class="label label-primary">Blog</span></a>
+            <a target="_blank" href="https://arxiv.org/abs/1412.6071"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <div class="row content">
+    <div class="col-md-3">
+      <img src="images/teasers/37.png" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 37</h4>
+          <p>Deep learning with multimodal representation for pancancer prognosis prediction</p>
+          <h5>
+            <a target="_blank" href="https://blog.fstelmach.nl/multimodal-prognosis-reproduction/"><span class="label label-primary">Blog</span></a>
+            <a target="_blank" href="https://academic.oup.com/bioinformatics/article/35/14/i446/5529139"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <img src="images/teasers/38.jpeg" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 38</h4>
+          <p>Between-class Learning for Image Classification</p>
+          <h5>
+            <a target="_blank" href="https://drive.google.com/file/d/1pmBX5VzxNDfElIQH2J5mzCz7Gf9Vg8XR/view?usp=sharing"><span class="label label-danger">Poster</span></a>
+            <a target="_blank" href="https://bbbaiqian.github.io/CS4240_project"><span class="label label-primary">Blog</span></a>
+            <a target="_blank" href="https://arxiv.org/abs/1711.10284"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <img src="images/teasers/39.png" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 39</h4>
+          <p>Hide-and-Seek: Forcing a Network to be Meticulous for Weakly-supervised Object and Action Localization</p>
+          <a target="_blank" href="https://arxiv.org/abs/1704.04232"><span class="label label-warning">Paper</span></a>
+          <h5>
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <img src="images/teasers/40.jpg" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 40</h4>
+          <p>Image-to-Image Translation with Conditional Adversarial Networks</p>
+          <h5>
+            <a target="_blank" href="https://tud-dl-group-40.azurewebsites.net/images/dl-poster-group-40.jpg"><span class="label label-danger">Poster</span></a>
+            <a target="_blank" href="https://tud-dl-group-40.azurewebsites.net/"><span class="label label-primary">Blog</span></a>
+            <a target="_blank" href="https://arxiv.org/abs/1611.07004"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row content">
+    <div class="col-md-3">
+      <img src="images/background.png" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 41</h4>
+          <p>Deep Image Prior</p>
+          <h5>
+            <a target="_blank" href="https://arxiv.org/abs/1711.10925"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <img src="images/teasers/42.png" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 42</h4>
+          <p>Dropout: A Simple Way to Prevent Neural Networks from Overfitting</p>
+          <h5>
+            <a target="_blank" href="https://github.com/andreaalf97/DeepLearning/blob/master/DeepLearningReport.ipynb"><span class="label label-primary">Blog</span></a>
+            <a target="_blank" href="http://jmlr.org/papers/v15/srivastava14a.html"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <img src="images/teasers/44.png" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 44</h4>
+          <p>Real-Time Single Image and Video Super-Resolution Using an Efficient Sub-Pixel Convolutional Neural Network</p>
+          <h5>
+            <a target="_blank" href="https://docs.google.com/document/d/1Z-1P2QzYg54mG5ChYDixsFmB1pfMhOvDifPTPeQWXeg/edit?usp=sharing"><span class="label label-primary">Blog</span></a>
+            <a target="_blank" href="https://github.com/SilentJalapeno/DeepLearningData"><span class="label label-info">Code</span></a>
+            <a target="_blank" href="https://arxiv.org/abs/1609.05158"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <img src="images/teasers/45.png" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 45</h4>
+          <p>Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift</p>
+          <h5>
+            <a target="_blank" href="https://drive.google.com/open?id=1RFQOUxPUW2_LIeszseQ6WVjzGF7IQ7zV"><span class="label label-primary">Blog</span></a>
+            <a target="_blank" href="https://arxiv.org/abs/1502.03167"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row content">
+    <div class="col-md-3">
+      <img src="images/teasers/47.png" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 47</h4>
+          <p>Image-to-Image Translation with Conditional Adversarial Networks</p>
+          <h5>
+            <a target="_blank" href="https://github.com/parvanitis15/pytorch-CycleGAN-and-pix2pix/blob/master/Deep_Learning_cGAN_Poster.pdf"><span class="label label-danger">Poster</span></a>
+            <a target="_blank" href="https://arxiv.org/abs/1611.07004"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <img src="images/teasers/50.png" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 50</h4>
+          <p>Real-Time Single Image and Video Super-Resolution Using an Efficient Sub-Pixel Convolutional Neural Network</p>
+          <h5>
+            <a target="_blank" href="https://github.com/mrlomar/ESPCN_Reproducibility_Project/blob/master/blogpost.ipynb"><span class="label label-primary">Blog</span></a>
+            <a target="_blank" href="https://arxiv.org/abs/1609.05158"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <img src="images/background.png" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 54</h4>
+          <p>U-Net: Convolutional Networks for Biomedical Image Segmentation</p>
+          <h5>
+            <a target="_blank" href="https://arxiv.org/abs/1505.04597"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <img src="images/teasers/55.png" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 55</h4>
+          <p>Deep Transfer Learning for Art Classification Problems</p>
+          <h5>
+            <a target="_blank" href="https://medium.com/@maxhermans14/reproducing-classification-results-presented-in-the-paper-deep-transfer-learning-for-art-7ca640572bd5"><span class="label label-primary">Blog</span></a>
+            <a target="_blank" href="https://www.clips.uantwerpen.be/~walter/papers/2018/skdg18.pdf"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row content">
+    <div class="col-md-3">
+      <img src="images/background.png" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 56</h4>
+          <p>Image-to-Image Translation with Conditional Adversarial Networks</p>
+          <h5>
+            <a target="_blank" href="posters/56.pdf"><span class="label label-primary">Blog</span></a>
+            <a target="_blank" href="https://arxiv.org/abs/1611.07004"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <img src="images/teasers/57.png" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 57</h4>
+          <p>Deep learning with multimodal representation for pancancer prognosis prediction</p>
+          <h5>
+            <a target="_blank" href="https://drive.google.com/open?id=1ZKNnJkIbNd1-zPA56F4ZZGVn2Zn3G4rb"><span class="label label-danger">Poster</span></a>
+            <a target="_blank" href="https://academic.oup.com/bioinformatics/article/35/14/i446/5529139"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <img src="images/teasers/59.png" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 59</h4>
+          <p>Deep Image Prior</p>
+          <h5>
+            <a target="_blank" href="https://dl59.github.io/ImPrior/"><span class="label label-primary">Blog</span></a>
+            <a target="_blank" href="https://arxiv.org/abs/1711.10925"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <img src="images/teasers/60.png" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 60</h4>
+          <p>Deep Image Prior</p>
+          <h5>
+            <a target="_blank" href="https://medium.com/@w.j.tempelaar/reproducibility-project-deep-image-prior-1f6e869a6dfe"><span class="label label-primary">Blog</span></a>
+            <a target="_blank" href="https://arxiv.org/abs/1711.10925"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row content">
+    <div class="col-md-3">
+      <img src="images/teasers/61.png" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 61</h4>
+          <p>Neural Graph Collaborative Filtering</p>
+          <h5>
+            <a target="_blank" href="https://drive.google.com/drive/folders/1HW4UZTImJy2G92HmFplhBYbrGZ6xVBLT"><span class="label label-danger">Poster</span></a>
+            <a target="_blank" href="https://medium.com/@yusufnoor_88274/implementing-neural-graph-collaborative-filtering-in-pytorch-4d021dff25f3"><span class="label label-primary">Blog</span></a>
+            <a target="_blank" href="https://arxiv.org/abs/1905.08108"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <img src="images/teasers/63.png" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 63</h4>
+          <p>U-Net: Convolutional Networks for Biomedical Image Segmentation</p>
+          <h5>
+            <a target="_blank" href="https://colab.research.google.com/drive/14yisAE7lzMBmFSEmJwO-QCTsk8v295I2"><span class="label label-primary">Blog</span></a>
+            <a target="_blank" href="https://arxiv.org/abs/1505.04597"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <img src="images/teasers/64.png" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 64</h4>
+          <p>Deep Image Prior</p>
+          <h5>
+            <a target="_blank" href="https://motykatomasz.github.io/DeepImagePrior/"><span class="label label-primary">Blog</span></a>
+            <a target="_blank" href="https://arxiv.org/abs/1711.10925"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <img src="images/teasers/65.png" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 65</h4>
+          <p>Siamese Neural Networks for One-shot Image Recognition</p>
+          <h5>
+            <a target="_blank" href="https://drive.google.com/file/d/1mNzMMjI2RabFiwcIYVI0GJW9WDIoz227"><span class="label label-danger">Poster</span></a>
+            <a target="_blank" href="https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row content">
+    <div class="col-md-3">
+      <img src="images/background.png" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 67</h4>
+          <p>Group Equivariant Convolutional Network </p>
+          <h5>
+            <a target="_blank" href="https://arxiv.org/abs/1602.07576"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <img src="images/background.png" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 68</h4>
+          <p>Deep Image Prior</p>
+          <h5>
+            <a target="_blank" href="https://arxiv.org/abs/1711.10925"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <img src="images/background.png" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 69</h4>
+          <p>Dropout: A Simple Way to Prevent Neural Networks from Overfitting;</p>
+          <h5>
+            <a target="_blank" href="https://github.com/WybeKoper/Dropout-reproduction"><span class="label label-primary">Blog</span></a>
+            <a target="_blank" href="http://jmlr.org/papers/v15/srivastava14a.html"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <img src="images/teasers/70.jpeg" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 70</h4>
+          <p>Real-Time Single Image and Video Super-Resolution Using an Efficient Sub-Pixel Convolutional Neural Network</p>
+          <h5>
+            <a target="_blank" href="https://github.com/jorisquist/DLSuperResolutionProject/blob/master/SuperResolution.ipynb"><span class="label label-info">Code</span></a>
+            <a target="_blank" href="https://arxiv.org/abs/1609.05158"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row content">
+    <div class="col-md-3">
+      <img src="images/teasers/71.jpg" alt="smaple image" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">
+          <h4>RP Group 71</h4>
+          <p>Deep Image Prior</p>
+          <h5>
+            <a target="_blank" href="https://drive.google.com/open?id=1G108_R07ypWhb0M4GCu8VYJmJEAwTPPT"><span class="label label-danger">Poster</span></a>
+            <a target="_blank" href="https://arxiv.org/abs/1711.10925"><span class="label label-warning">Paper</span></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+</div>
+
+<footer class="container-fluid">
+  <p>CS4240 Deep Learning 2019-2020 | TU Delft</p>
+</footer>
+
+</body>
+</html>
