@@ -18,43 +18,43 @@
         ],
         [
             "R",
-            "6_PvdA"
+            "5_PvdA"
         ],
         [
             "R",
-            "7_PvdD"
+            "6_PvdD"
         ],
         [
             "R",
-            "8_SGP"
+            "7_SGP"
         ],
         [
             "R",
-            "9_SPnl"
+            "8_SPnl"
         ],
         [
             "R",
-            "10_VVD"
+            "9_VVD"
         ],
         [
             "R",
-            "11_VoltNederland"
+            "10_VoltNederland"
         ],
         [
             "R",
-            "12_cda"
+            "11_cda"
         ],
         [
             "R",
-            "13_d66"
+            "12_d66"
         ],
         [
             "R",
-            "14_fvd_emocratie"
+            "13_fvd_emocratie"
         ],
         [
             "R",
-            "15_groenlinks_"
+            "14_groenlinks_"
         ]
     ],
     "index": [
@@ -71,34 +71,34 @@
             "4_JA21"
         ],
         [
-            "6_PvdA"
+            "5_PvdA"
         ],
         [
-            "7_PvdD"
+            "6_PvdD"
         ],
         [
-            "8_SGP"
+            "7_SGP"
         ],
         [
-            "9_SPnl"
+            "8_SPnl"
         ],
         [
-            "10_VVD"
+            "9_VVD"
         ],
         [
-            "11_VoltNederland"
+            "10_VoltNederland"
         ],
         [
-            "12_cda"
+            "11_cda"
         ],
         [
-            "13_d66"
+            "12_d66"
+        ],
+        [   
+            "13_fvd_emocratie"
         ],
         [
-            "14_fvd"
-        ],
-        [
-            "15_groenlinks"
+            "14_groenlinks_"
         ]
     ],
     "data": [
