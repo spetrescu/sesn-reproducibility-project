@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<!--
+ ##########################################################################
+ Patrick.Brockmann@lsce.ipsl.fr
+ ##########################################################################
+-->
+
+<script type="text/javascript" nonce="02c90425d4c247f98c00fc885cc" src="//local.adguard.org?ts=1618148834918&amp;type=content-script&amp;dmn=bl.ocks.org&amp;app=com.google.Chrome.helper&amp;css=1&amp;js=1&amp;gcss=1&amp;rel=1&amp;rji=1&amp;sbe=0"></script>
+<script type="text/javascript" nonce="02c90425d4c247f98c00fc885cc" src="//local.adguard.org?ts=1618148834918&amp;name=AdGuard%20Extra&amp;type=user-script"></script><script src="https://d3js.org/d3.v3.js"></script>
+<script src="https://d3js.org/colorbrewer.v1.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+<script src="heatmap.js"></script>
+<link rel="stylesheet" href="heatmap.css" />
+
+<head>
+
+<script>
+$(document).ready(function() {
+	heatmap_display("dutch_parties_common_followers.json", "#heatmap", "PuBu");
+});
+</script>
+
+</head>
+
+<body>
+
+<!-- Order:
+<select id="order">
+  <option value="null" selected> ----- </option>
+  <option value="sortinit_col_row">Initial order on columns and rows</option>
+  <option value="sortinit_row">Initial order on rows</option>
+  <option value="sortinit_col">Initial order on columns</option>
+</select> -->
+
+<h1 class="pallette_2"> - MDACN - Visualizing common Twitter followers for Dutch Political Parties </h1>
+<h5 class="pallette_3"> Version 2 - for this visualisation the parties were merged together with the 'influencers' </h5>
+<h3 class="pallette_2">Select color map:</h3>
+<select id="palette" class="select-css">
+  <option value="Oranges">Oranges</option>
+  <option value="PuBu" selected>PuBu</option>
+  <option value="OrRd">OrRd</option>
+  <option value="Greys">Greys</option>
+  <option value="Greens">Greens</option>
+  <option value="Purples">Purples</option>
+  <option value="Blues">Blues</option>
+  <option value="Reds">Reds</option>
+</select>
+<!-- //PuBu
+//OrRd
+//Oranges
+//Greys
+//Greens -->
+
+<div id="heatmap"></div>
+
+</body>
+</html>
