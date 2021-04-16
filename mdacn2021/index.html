@@ -15,11 +15,12 @@
 <script src="heatmap.js"></script>
 <link rel="stylesheet" href="heatmap.css" />
 
+<title>MDACN Project Twitter</title>
 <head>
 
 <script>
 $(document).ready(function() {
-	heatmap_display("metrics_ocmip5.json", "#heatmap", "Spectral");
+	heatmap_display("dutch_parties_common_followers.json", "#heatmap", "PuBu");
 });
 </script>
 
@@ -27,26 +28,32 @@ $(document).ready(function() {
 
 <body>
 
-Order:
+<!-- Order:
 <select id="order">
   <option value="null" selected> ----- </option>
   <option value="sortinit_col_row">Initial order on columns and rows</option>
   <option value="sortinit_row">Initial order on rows</option>
   <option value="sortinit_col">Initial order on columns</option>
+</select> -->
+
+<h1 class="pallette_2"> - Visualizing common Twitter followers for Dutch Political Parties - </h1>
+<h3 class="pallette_2">Select color map:</h3>
+<select id="palette" class="select-css">
+  <option value="Oranges">Oranges</option>
+  <option value="PuBu" selected>PuBu</option>
+  <option value="OrRd">OrRd</option>
+  <option value="Greys">Greys</option>
+  <option value="Greens">Greens</option>
+  <option value="Purples">Purples</option>
+  <option value="Blues">Blues</option>
+  <option value="Reds">Reds</option>
 </select>
 
-Palette:
-<select id="palette">
-  <option value="RdYlGn">RdYlGn</option>
-  <option value="Spectral" selected>Spectral</option>
-  <option value="RdYlBu">RdYlBu</option>
-  <option value="RdGy">RdGy</option>
-  <option value="RdBu">RdBu</option>
-  <option value="PiYG">PiYG</option>
-  <option value="PRGn">PRGn</option>
-  <option value="BrBG">BrBG</option>
-  <option value="PuOr">PuOr</option>
-</select>
+<!-- //PuBu
+//OrRd
+//Oranges
+//Greys
+//Greens -->
 
 <div id="heatmap"></div>
 

@@ -1,4 +1,4 @@
-var classesNumber = 10,
+var classesNumber = 9,
     cellSize = 24;
 
 //#########################################################
@@ -19,6 +19,7 @@ function heatmap_display(url, heatmapId, paletteName) {
     // http://bl.ocks.org/ianyfchang/8119685
 
     //==================================================
+
     var tooltip = d3.select(heatmapId)
         .append("div")
         .style("position", "absolute")
@@ -36,13 +37,13 @@ function heatmap_display(url, heatmapId, paletteName) {
     //==================================================
     var viewerWidth = $(document).width();
     var viewerHeight = $(document).height();
-    var viewerPosTop = 200;
+    var viewerPosTop = 170;
     var viewerPosLeft = 100;
 
     var legendElementWidth = cellSize * 2;
 
     // http://bl.ocks.org/mbostock/5577023
-    var colors = colorbrewer[paletteName][classesNumber];
+    var colors = colorbrewer[paletteName][classesNumber]; 
 
     // http://bl.ocks.org/mbostock/3680999
     var svg;
@@ -210,7 +211,7 @@ function heatmap_display(url, heatmapId, paletteName) {
             .attr("class", "legend")
             .attr("transform", "translate(0,-300)")
             .selectAll(".legendElement")
-            .data([0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9])
+            .data([0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8])
             .enter().append("g")
             .attr("class", "legendElement");
 
